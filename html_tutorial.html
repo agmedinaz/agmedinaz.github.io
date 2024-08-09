@@ -1,0 +1,75 @@
+<a href="index.html">Home</a>
+
+<h1>Tutorial de HTML</h1>
+
+<section>
+    <h2>Introducción</h2>
+    HTML es un lenguaje markup estándar para páginas web. Su sigla proviene de Hyper Text Markup Language.
+</section>
+
+<section>
+    <h2>Primeros comandos</h2>
+    <h3>Nuevo archivo HTML</h3>
+    <p>
+        Si necesitamos generar un nuevo archivo .html podemos crear un archivo "nombre.html" y dentro de él 
+        podemos utilizar el comando "!+enter" que nos genera una plantilla de html
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang=&quot;es&quot;&gt;
+                &lt;head&gt;
+                    &lt;meta charset=&quot;UTF-8&quot;&gt;
+                    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                    &lt;title&gt;Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </p>
+    <h3>Imágenes, audios y videos</h3>
+    <p>
+        Hay muchos atributos diferentes que podemos controlar, pero los básicos para agregar imagen, audio o video 
+        a nuestra página web son estos.
+        <pre>
+            <code>
+                <b>Imágenes:</b> &lt;img src="nombre.png" width="200" height="300" alt="esta es una imagen"&gt;
+            </code>
+
+            <code>
+                <b>Audio:</b> &lt;audio src="nombre.mp3"&gt;
+            </code>
+
+            <code>
+                <b>Video:</b> &lt;video src="nombre.mp4"&gt;
+            </code>
+        </pre>
+    </p>
+    <h3>Metatags</h3>
+    <p>
+        La etiqueta es <code>&lt;meta&gt;</code>, y sus elementos representan tipos de metadatos
+        que no pueden expresarse usando los elementos "title", "base", "link", "style" o "script". Ponemos 
+        estos metadatos en el <code>&lt;head&gt;</code>. Son "self-closing".
+        <pre>
+            <code>
+                &lt;meta name="description" content="Esta es mi página web."&gt;
+            </code>
+        </pre>
+        Todo este tipo de metadatos serán leídos por el browser. Por ejemplo, un metadato útil es aquel que 
+        mantiene la proporción de la página cuando se cambia de dispositivo. Este metadato es
+        <pre>
+            <code>
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            </code>
+        </pre>
+        o cuántos segundos tenés que esperar para que el browser se actualice.
+        <pre>
+            <code>
+                &lt;meta http-equiv="refresh" content="30"&gt;
+            </code>
+        </pre>
+    </p>
+
+</section>
