@@ -1,5 +1,2 @@
-theme: jekyll-theme-minimal
-logo: /assets/img/image.png
-title: Agustin's homepage
-#show_downloads: true
-description: Welcome! this is my blog page.
+name: Agustín Medina Zancarini
+markdown: kramdown
